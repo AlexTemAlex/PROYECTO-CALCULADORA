@@ -14,7 +14,7 @@ jobs:
         with:
           python-version: '3.9'
       - run: pip install -r requirements.txt
-      - run: pytest tests.py
+      - run: pytest test.py
 
   # TRABAJO 2: Entrega Continua (Desplegar)
   cd-deploying:
